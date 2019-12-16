@@ -1,0 +1,9 @@
+// media queries
+@mixin mq($break) {
+
+    @if $break == 'computer-screen'{
+        @media (min-width: $computer-screen) {
+            @content
+        }
+    }
+}

@@ -12,22 +12,42 @@
     border-radius: 5px;
   }
   
-  .default {
+  .default{
     background-color: $default;
+    &:hover{
+      background-color: $default-light;
+      transition: 1s;
+    }
   }
   
   .error {
     background-color: $error;
+    &:hover{
+      background-color: $error-light;
+      transition: 1s;
+    }
   }
   
   .info {
     background-color: $info;
+    &:hover{
+      background-color: $info-light;
+      transition: 1s;
+    }
   }
   
   .success {
-    background-color: #63cc82;
+    background-color: $success;
+    &:hover{
+      background-color: $success-light;
+      transition: 1s;
+    }
   }
   
   .warning {
-    background-color: #fd7856;
+    background-color: $warning;
+    &:hover{
+      background-color: $warning-light;
+      transition: 1s;
+    }
   }
